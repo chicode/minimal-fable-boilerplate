@@ -1,16 +1,16 @@
 {
-  "name": "parcel-plugin-fable",
-  "version": "1.5.0",
+  "name": "parcel-plugin-fable-cream",
+  "version": "1.5.2",
   "main": "src/index.js",
   "license": "MIT",
-  "description": "Parcel asset type plugin for Fable",
+  "description": "Parcel asset type plugin for Fable meant to be used with CREAM",
   "author": {
-    "name": "Shane Logsdon",
-    "email": "shane@shanelogsdon.com"
+    "name": "Anton Outkine",
+    "email": "antonoutkine@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/slogsdon/parcel-plugin-fable.git"
+    "url": "https://github.com/outkine/parcel-plugin-fable.git"
   },
   "dependencies": {
     "babylon-walk": "^1.0.2",
