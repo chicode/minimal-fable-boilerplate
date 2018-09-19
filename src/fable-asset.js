@@ -50,7 +50,7 @@ class FableAsset extends Asset {
 
     const babelOpts = fableUtils.resolveBabelOptions({
       // TODO: Does Parcel require commonjs modules?
-      plugins: [],
+      plugins: ['babel-plugin-transform-es2015-modules-commonjs'],
       sourceMaps: false,
       sourceFileName: path.relative(process.cwd(), data.fileName.replace(/\\/g, '/')),
     })
